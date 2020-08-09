@@ -10,41 +10,42 @@ body {
   margin: 0;
   font-family: "Barlow Semi Condensed", sans-serif;
 }
-#nav {
-  background-color: orange;
-}
-nav a {
+a {
   text-decoration: none;
-
-  display: block;
-  padding: 15px 25px;
-  background-color: orange;
-  color: white;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  text-transform: uppercase;
+  font-weight: 600;
 }
 .nav-main {
-  list-style: none;
   margin: 0;
   padding: 0;
 
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
 }
 .nav-items {
   margin: 0;
   padding: 0;
+  width: 100%;
 }
-.nav-dropdown {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-
-  display: flex;
-  flex-direction: column;
-  display: none;
-}
-nav ul li:hover ul {
+#nav a {
   display: block;
+  padding: 10px;
+  background-color: orange;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+#nav a:hover {
+  background-color: white;
+  color: orange;
 }
