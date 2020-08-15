@@ -228,3 +228,34 @@ header h1 {
   background-position: center;
   background-repeat: no-repeat;
 }
+.contact {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+}
+.icon {
+  font-size: 3em;
+  padding: 20px;
+  color: orange;
+}
+.icon:hover {
+  color: darkorange;
+}
+.phone a {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.phone a div {
+  font-size: 1.5em;
+}
+.social {
+  display: flex;
+  flex-flow: row wrap;
+}
+.map {
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+}
