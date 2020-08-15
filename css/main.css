@@ -49,6 +49,7 @@ header {
   position: relative;
   background-image: url("../images/Fresh_Brewed_Coffee.jpeg");
   height: 400px;
+  margin-bottom: 50px;
 
   background-size: cover;
   background-position: center;
@@ -71,6 +72,7 @@ header h1 {
 .whoweare {
   display: flex;
   flex-flow: column nowrap;
+  margin-bottom: 50px;
 }
 .img-wrapper {
   width: 20em;
@@ -91,4 +93,138 @@ header h1 {
 .whoweare-content h2 {
   margin: 0;
   padding: 0;
+}
+.bakery h2 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.gallery {
+  width: 90%;
+  margin: 20px auto;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.gallery-img-wrapper-one {
+  width: 200px;
+  height: 200px;
+  box-shadow: 5px 10px 12px #39393944;
+  margin: 15px auto;
+
+  background-image: url(../images/chocolate-glaze.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.gallery-img-wrapper-two {
+  width: 200px;
+  height: 200px;
+  box-shadow: 5px 10px 12px #39393944;
+  margin: 15px auto;
+
+  background-image: url(../images/baked-sprinkle-donuts-recipe.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.gallery-img-wrapper-three {
+  width: 200px;
+  height: 200px;
+  box-shadow: 5px 10px 12px #39393944;
+  margin: 15px auto;
+
+  background-image: url(../images/Cardamom_pear_pasteris.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.gallery-img-wrapper-four {
+  width: 200px;
+  height: 200px;
+  box-shadow: 5px 10px 12px #39393944;
+  margin: 15px auto;
+
+  background-image: url(../images/french_cruller.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.gallery-img-wrapper-five {
+  width: 200px;
+  height: 200px;
+  box-shadow: 5px 10px 12px #39393944;
+  margin: 15px auto;
+
+  background-image: url(../images/cinnamon_tiwst.JPG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.gallery-img-wrapper-six {
+  width: 200px;
+  height: 200px;
+  box-shadow: 5px 10px 12px #39393944;
+  margin: 15px auto;
+
+  background-image: url(../images/Lemon-Filled-Donut.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.gallery-img-wrapper-seven {
+  width: 200px;
+  height: 200px;
+  box-shadow: 5px 10px 12px #39393944;
+  margin: 15px auto;
+
+  background-image: url(../images/Old-Fashioned-Buttermilk-Donuts.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.gallery-img-wrapper-eight {
+  width: 200px;
+  height: 200px;
+  box-shadow: 5px 10px 12px #39393944;
+  margin: 15px auto;
+
+  background-image: url(../images/plane_donuts.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.gallery-img-wrapper-nine {
+  width: 200px;
+  height: 200px;
+  box-shadow: 5px 10px 12px #39393944;
+  margin: 15px auto;
+
+  background-image: url(../images/Raspberry-Cream-Cheese-Pastries.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.gallery-img-wrapper-ten {
+  width: 200px;
+  height: 200px;
+  box-shadow: 5px 10px 12px #39393944;
+  margin: 15px auto;
+
+  background-image: url(../images/valrhona_chocolate_croissants.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.gallery-img-wrapper-eleven {
+  width: 200px;
+  height: 200px;
+  box-shadow: 5px 10px 12px #39393944;
+  margin: 15px auto;
+
+  background-image: url(../images/white_chocolate_mousse_pasteries.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
