@@ -68,6 +68,7 @@ header h1 {
   font-weight: 600;
   font-size: 2.5em;
   text-shadow: 5px 10px 12px #333333;
+  text-align: center;
 }
 .whoweare {
   display: flex;
@@ -89,10 +90,51 @@ header h1 {
   width: 20em;
   margin: 0 auto;
   text-align: center;
+  padding: 0;
 }
 .whoweare-content h2 {
   margin: 0;
   padding: 0;
+}
+.coffee {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-bottom: 50px;
+}
+.coffee-h2 {
+  width: 20em;
+  margin: 0 auto;
+  text-align: center;
+}
+.coffee-img-wrapper {
+  width: 20em;
+  padding: 0;
+  margin: 20px auto;
+}
+.coffee-img-wrapper img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.coffee-content {
+  width: 20em;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.fair-trade {
+  width: 20em;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+}
+.fair-trade-content h3 {
+  margin: 0;
+  padding: 0;
+}
+.bakery {
+  margin-bottom: 50px;
 }
 .bakery h2 {
   margin: 0;
