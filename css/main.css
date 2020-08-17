@@ -70,15 +70,15 @@ header h1 {
   text-shadow: 5px 10px 12px #333333;
   text-align: center;
 }
-.whoweare {
+#whoweare {
   display: flex;
   flex-flow: column nowrap;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .img-wrapper {
   width: 20em;
-  padding: 20px;
   margin: 0 auto;
+  padding: 20px;
 }
 .img-wrapper img {
   display: block;
@@ -89,27 +89,29 @@ header h1 {
 .whoweare-content {
   width: 20em;
   margin: 0 auto;
-  text-align: center;
   padding: 0;
+  text-align: center;
 }
 .whoweare-content h2 {
   margin: 0;
   padding: 0;
 }
-.coffee {
+#coffee {
   display: flex;
   flex-flow: column nowrap;
   margin-bottom: 50px;
+  padding: 0;
 }
 .coffee-h2 {
   width: 20em;
   margin: 0 auto;
+  padding: 0;
   text-align: center;
 }
 .coffee-img-wrapper {
   width: 20em;
-  padding: 0;
-  margin: 20px auto;
+  margin: 0 auto;
+  padding: 20px;
 }
 .coffee-img-wrapper img {
   display: block;
@@ -133,10 +135,10 @@ header h1 {
   margin: 0;
   padding: 0;
 }
-.bakery {
+#bakery {
   margin-bottom: 50px;
 }
-.bakery h2 {
+#bakery h2 {
   margin: 0;
   padding: 0;
   text-align: center;
@@ -269,6 +271,47 @@ header h1 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+footer {
+  background-color: #abc4ab;
+  color: #ffffff;
+  margin: 0;
+  padding: 2%;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 0 1 auto;
+}
+.footer-content a {
+  color: #ffffff;
+}
+.footer-content a:hover {
+  color: #6d4c3d;
+}
+.footer-content h4 {
+  margin: 0;
+  padding: 0;
+}
+.footer-content li {
+  margin: 0;
+  padding: 0;
+}
+.footer-icon {
+  font-size: 1.3em;
+  color: #6d4c3d;
+}
+.footer-icon:hover {
+  color: #ffffff;
+}
+.copy {
+  background-color: #727d71;
+  padding: 5px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.8em;
+  text-align: center;
 }
 .contact {
   display: flex;
