@@ -338,7 +338,7 @@ footer {
   align-items: center;
 
   margin: 0 auto;
-  background-color: #dcc9b6;
+  background-color: #ffffff;
   color: #6d4c3d;
 }
 #menu h2 {
@@ -405,7 +405,7 @@ footer {
   align-content: center;
   align-items: center;
 
-  background-color: #dcc9b6;
+  background-color: #ffffff;
   padding: 15px;
 }
 .contact-content {
@@ -419,7 +419,7 @@ footer {
   color: #6d4c3d;
 }
 .icon:hover {
-  color: #ffffff;
+  color: #dcc9b6;
 }
 .map {
   padding: 15px;
