@@ -337,8 +337,9 @@ footer {
   justify-content: center;
   align-items: center;
 
-  width: 90%;
   margin: 0 auto;
+  background-color: #dcc9b6;
+  color: #6d4c3d;
 }
 #menu h2 {
   margin: 0;
@@ -381,6 +382,9 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
+.coffee-sizes ul li::first-line {
+  font-size: 1.2em;
+}
 .menu-other {
   margin: 0 auto;
   width: 15em;
@@ -391,6 +395,9 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
+.other-prices ul li::first-line {
+  font-size: 1.2em;
+}
 #contact {
   display: flex;
   flex-flow: column nowrap;
@@ -398,6 +405,7 @@ footer {
   align-content: center;
   align-items: center;
 
+  background-color: #dcc9b6;
   padding: 15px;
 }
 .contact-content {
@@ -411,7 +419,7 @@ footer {
   color: #6d4c3d;
 }
 .icon:hover {
-  color: #dcc9b6;
+  color: #ffffff;
 }
 .map {
   padding: 15px;
