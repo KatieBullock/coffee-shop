@@ -50,4 +50,13 @@
     text-align: left;
     padding: 0;
   }
+  .menu-items {
+    flex-flow: row nowrap;
+  }
+  .menu-coffee {
+    padding: 0 30px;
+  }
+  .menu-other {
+    padding: 0 30px;
+  }
 }

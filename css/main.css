@@ -331,6 +331,66 @@ footer {
   font-size: 0.8em;
   text-align: center;
 }
+#menu {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+
+  width: 90%;
+  margin: 0 auto;
+}
+#menu h2 {
+  margin: 0;
+  padding: 30px;
+  text-align: center;
+}
+.menu-img-wrapper {
+  width: 20em;
+  height: 20em;
+  border-radius: 50%;
+
+  background-image: url(../images/cappuccino.jpg);
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.menu-steps ol {
+  margin: 0;
+  padding: 30px;
+}
+.menu-items {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+
+  padding-bottom: 30px;
+}
+.menu-items h4 {
+  margin: 0;
+  padding: 0;
+}
+.menu-coffee {
+  margin: 0 auto;
+  padding-bottom: 30px;
+  width: 15em;
+}
+.coffee-sizes {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-other {
+  margin: 0 auto;
+  width: 15em;
+}
+.other-prices {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
 #contact {
   display: flex;
   flex-flow: column nowrap;
