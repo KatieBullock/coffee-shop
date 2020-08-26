@@ -194,7 +194,7 @@ header h1 {
   width: 200px;
   height: 200px;
 
-  background-image: url(/CoffeeShop/images/chocolate-glaze.jpg);
+  background-image: url(../images/chocolate-glaze.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -203,7 +203,7 @@ header h1 {
   width: 200px;
   height: 200px;
 
-  background-image: url(/CoffeeShop/images/baked-sprinkle-donuts-recipe.jpg);
+  background-image: url(../images/baked-sprinkle-donuts-recipe.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -212,7 +212,7 @@ header h1 {
   width: 200px;
   height: 200px;
 
-  background-image: url(/CoffeeShop/images/Cardamom_pear_pasteris.webp);
+  background-image: url(../images/Cardamom_pear_pasteris.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -221,7 +221,7 @@ header h1 {
   width: 200px;
   height: 200px;
 
-  background-image: url(/CoffeeShop/images/french_cruller.jpg);
+  background-image: url(../images/french_cruller.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -230,7 +230,7 @@ header h1 {
   width: 200px;
   height: 200px;
 
-  background-image: url(/CoffeeShop/images/cinnamon_tiwst.JPG);
+  background-image: url(../images/cinnamon_tiwst.JPG);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -239,7 +239,7 @@ header h1 {
   width: 200px;
   height: 200px;
 
-  background-image: url(/CoffeeShop/images/Lemon-Filled-Donut.jpg);
+  background-image: url(../images/Lemon-Filled-Donut.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -248,7 +248,7 @@ header h1 {
   width: 200px;
   height: 200px;
 
-  background-image: url(/CoffeeShop/images/Old-Fashioned-Buttermilk-Donuts.jpg);
+  background-image: url(../images/Old-Fashioned-Buttermilk-Donuts.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -257,7 +257,7 @@ header h1 {
   width: 200px;
   height: 200px;
 
-  background-image: url(/CoffeeShop/images/plane_donuts.jpg);
+  background-image: url(../images/plane_donuts.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -266,7 +266,7 @@ header h1 {
   width: 200px;
   height: 200px;
 
-  background-image: url(/CoffeeShop/images/Raspberry-Cream-Cheese-Pastries.jpg);
+  background-image: url(../images/Raspberry-Cream-Cheese-Pastries.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -275,7 +275,7 @@ header h1 {
   width: 200px;
   height: 200px;
 
-  background-image: url(/CoffeeShop/images/valrhona_chocolate_croissants.jpg);
+  background-image: url(../images/valrhona_chocolate_croissants.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -284,7 +284,7 @@ header h1 {
   width: 200px;
   height: 200px;
 
-  background-image: url(/CoffeeShop/images/white_chocolate_mousse_pasteries.jpg);
+  background-image: url(../images/white_chocolate_mousse_pasteries.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -351,7 +351,7 @@ footer {
   height: 20em;
   border-radius: 50%;
 
-  background-image: url(/CoffeeShop/images/cappuccino.jpg);
+  background-image: url(../images/cappuccino.jpg);
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
