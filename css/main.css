@@ -47,7 +47,7 @@ ul {
 }
 header {
   position: relative;
-  background-image: url("/CoffeeShop/images/Fresh_Brewed_Coffee.jpeg");
+  background-image: url("../images/Fresh_Brewed_Coffee.jpeg");
   height: 400px;
 
   background-size: cover;
